@@ -1,0 +1,9 @@
+# Force Unix line endings for shell scripts regardless of OS
+gradlew        text eol=lf
+*.sh           text eol=lf
+
+# Windows batch files keep CRLF
+*.bat          text eol=crlf
+
+# Everything else — normalize on commit, platform-native on checkout
+*              text=auto
