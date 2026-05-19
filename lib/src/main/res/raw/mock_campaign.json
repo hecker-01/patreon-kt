@@ -1,0 +1,35 @@
+{
+  "data": {
+    "type": "campaign",
+    "id": "12345678",
+    "attributes": {
+      "name": "Mock Campaign",
+      "vanity": "mock-creator",
+      "summary": "A mock campaign for testing patreon-kt without real credentials.",
+      "creation_name": "Mock content",
+      "patron_count": 42,
+      "created_at": "2023-01-01T00:00:00.000+00:00",
+      "published_at": "2023-01-01T00:00:00.000+00:00",
+      "url": "https://www.patreon.com/mock-creator",
+      "avatar_photo_url": "https://picsum.photos/seed/avatar/200/200",
+      "cover_photo_url": "https://picsum.photos/seed/cover/1200/400",
+      "currency": "USD"
+    },
+    "relationships": {
+      "creator": {
+        "data": { "type": "user", "id": "u001" }
+      }
+    }
+  },
+  "included": [
+    {
+      "type": "user",
+      "id": "u001",
+      "attributes": {
+        "full_name": "Mock Creator",
+        "vanity": "mock-creator",
+        "image_url": "https://picsum.photos/seed/avatar/200/200"
+      }
+    }
+  ]
+}

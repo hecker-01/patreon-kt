@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "type": "product",
+      "id": "p001",
+      "attributes": {
+        "name": "Mock Digital Print",
+        "description": "A high-resolution mock digital print for testing.",
+        "url": "https://www.patreon.com/products/p001",
+        "price_cents": 999,
+        "currency": "USD",
+        "published_at": "2023-06-01T00:00:00.000+00:00"
+      },
+      "relationships": {
+        "media": { "data": [] }
+      }
+    }
+  ],
+  "included": [],
+  "meta": {}
+}

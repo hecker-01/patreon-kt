@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "type": "post",
+      "id": "111111",
+      "attributes": {
+        "title": "First Image Post",
+        "content": "<p>This is the first mock post with two images.</p>",
+        "teaser_text": "A teaser for the first post.",
+        "post_type": "image_file",
+        "is_viewable": true,
+        "url": "https://www.patreon.com/posts/first-image-post-111111",
+        "published_at": "2024-03-01T12:00:00.000+00:00",
+        "edited_at": null,
+        "comment_count": 2,
+        "thumbnail_url": "https://picsum.photos/seed/thumb1/400/300"
+      },
+      "relationships": {
+        "media": {
+          "data": [
+            { "type": "media", "id": "m001" },
+            { "type": "media", "id": "m002" }
+          ]
+        }
+      }
+    },
+    {
+      "type": "post",
+      "id": "222222",
+      "attributes": {
+        "title": "Audio Episode 1",
+        "content": "<p>This is the first audio episode.</p>",
+        "teaser_text": "A teaser for the audio post.",
+        "post_type": "audio_file",
+        "is_viewable": true,
+        "url": "https://www.patreon.com/posts/audio-episode-1-222222",
+        "published_at": "2024-02-15T10:00:00.000+00:00",
+        "edited_at": null,
+        "comment_count": 0,
+        "thumbnail_url": null
+      },
+      "relationships": {
+        "media": {
+          "data": [
+            { "type": "media", "id": "m003" }
+          ]
+        }
+      }
+    },
+    {
+      "type": "post",
+      "id": "333333",
+      "attributes": {
+        "title": "Text Post with YouTube Embed",
+        "content": "<p>Check out this video!</p>",
+        "teaser_text": "A teaser for the embed post.",
+        "post_type": "video_external_file",
+        "is_viewable": true,
+        "url": "https://www.patreon.com/posts/text-post-embed-333333",
+        "published_at": "2024-01-10T08:00:00.000+00:00",
+        "edited_at": null,
+        "comment_count": 5,
+        "thumbnail_url": null,
+        "embed": {
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "subject": "YouTube",
+          "html": "<iframe src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\"></iframe>"
+        }
+      },
+      "relationships": {
+        "media": { "data": [] }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "media",
+      "id": "m001",
+      "attributes": {
+        "file_name": "img001.jpg",
+        "mimetype": "image/jpeg",
+        "download_url": "https://picsum.photos/seed/img001/800/600",
+        "metadata": {
+          "dimensions": { "w": 800, "h": 600 }
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "m002",
+      "attributes": {
+        "file_name": "img002.jpg",
+        "mimetype": "image/jpeg",
+        "download_url": "https://picsum.photos/seed/img002/1024/768",
+        "metadata": {
+          "dimensions": { "w": 1024, "h": 768 }
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "m003",
+      "attributes": {
+        "file_name": "SoundHelix-Song-1.mp3",
+        "mimetype": "audio/mpeg",
+        "download_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        "metadata": {}
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "cursors": {
+        "next": null
+      },
+      "total": 3
+    }
+  }
+}
